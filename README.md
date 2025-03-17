@@ -4,8 +4,11 @@ The project consists of multiple C and header files, each serving a specific pur
 The assembler works in three main stages:
 
 Pre-Processing
+
 First Pass
+
 Second Pass
+
 These stages form the core algorithm of the assembler.
 
 Pre-Processing The pre-assembler reads the source file line by line and identifies macro definitions. If a macro is identified, the lines of the macro are added to a macro table and replaced in the source file.
